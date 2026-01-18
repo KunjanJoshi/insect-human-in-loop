@@ -15,6 +15,14 @@ Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image
    - `uncertain_predictions.csv`
    - `certain_predictions.csv`
    - `flagged_uncertain/`
+Key Features
+Uncertainty-Aware Triage: Instead of a simple "black box" classifier, this system uses prediction entropy to measure model confidence.
+
+Human-in-the-Loop (HITL) Workflow: Automatically identifies "hard" cases (low confidence) that require expert verification, simulating a real-world industrial pipeline.
+
+Transfer Learning with EfficientNet: Leverages pre-trained weights to achieve high accuracy on specialized agricultural pest datasets.
+
+Performance Metrics: Demonstrates a clear accuracy gap between "Certain" (99%+) and "Uncertain" (~73%) predictions, proving the reliability of the flagging mechanism.
 
 ## Visual Outputs
 
