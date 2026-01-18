@@ -1,4 +1,4 @@
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KunjanJoshi/insect-human-in-loop/blob/main/insect_pest_ID.ipynb)
 # Uncertainty-Aware Agricultural Pest Identification (Human-in-the-Loop Prototype)
 
 This project demonstrates a computer vision pipeline for automated agricultural pest identification using transfer learning (EfficientNet) and uncertainty-aware flagging for expert verification. The aim is to replicate a practical "human-in-the-loop" workflow where high-confidence predictions are accepted automatically and ambiguous cases are routed for manual review.
