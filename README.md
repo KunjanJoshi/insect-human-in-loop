@@ -5,6 +5,14 @@ This project demonstrates a computer vision pipeline for automated agricultural 
 
 ## Dataset
 Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image-dataset`)
+## Visual Outputs
+
+### Flagged uncertain cases (human-in-the-loop)
+![Uncertain grid](8a704309-1f33-4591-8d4e-2da94efb4136.png)
+
+### Uncertainty vs correctness
+![Uncertainty vs correctness](outputs/uncertainty_correct_vs_wrong.png)
+
 
 ## Methods
 - Model: EfficientNet-B0 (PyTorch + timm)
@@ -13,7 +21,13 @@ Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image
   H(p) = - Σ pᵢ log(pᵢ)
 - Workflow: top 15% most uncertain predictions are flagged for human verification
 
-## Key Results
+## Key Results (Validation)
+
+- **Certain bucket (auto-accepted):** 934 images, **99.14% accuracy**
+- **Uncertain bucket (flagged for expert review):** 165 images, **73.33% accuracy**
+
+This demonstrates uncertainty-based triage: high-confidence predictions are highly reliable, while ambiguous/noisy cases are routed for manual verification.
+
 - Certain bucket (auto-accepted): **934 images**, **99.14% accuracy**
 - Uncertain bucket (flagged): **165 images**, **73.33% accuracy**
 
