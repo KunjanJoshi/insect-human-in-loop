@@ -59,5 +59,12 @@ This demonstrates uncertainty-based triage: high-confidence predictions are high
 
 This prototype directly supports human-in-the-loop pest monitoring systems by automatically accepting high-confidence predictions and flagging ambiguous specimens for expert verification, reducing manual workload while maintaining high reliability.
 
+## Limitations & Next Steps
+- Dataset contains noisy/non-target images; uncertainty helps with quality control.
+- Future work: multi-angle imaging / focus stacking (multi-modal inputs).
+- Explore stronger uncertainty methods (MC Dropout, deep ensembles).
+- Extend to detection (YOLO) for trap images and multi-insect scenes.
+
+
 ## Tools
 Python, PyTorch, torchvision, timm, scikit-learn, Google Colab
