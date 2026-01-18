@@ -11,7 +11,7 @@ Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image
 ![Uncertain grid](8a704309-1f33-4591-8d4e-2da94efb4136.png)
 
 ### Uncertainty vs correctness
-![Uncertainty vs correctness](outputs/uncertainty_correct_vs_wrong.png)
+![Uncertainty vs correctness](uncertainty_correct_vs_wrong.png)
 
 
 ## Methods
