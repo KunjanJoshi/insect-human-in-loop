@@ -5,6 +5,17 @@ This project demonstrates a computer vision pipeline for automated agricultural 
 
 ## Dataset
 Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image-dataset`)
+## How to Run
+
+1. Download the Kaggle dataset:
+   `vencerlanz09/agricultural-pests-image-dataset`
+2. Open the notebook in Google Colab.
+3. Train EfficientNet-B0.
+4. Run the uncertainty-flagging step to export:
+   - `uncertain_predictions.csv`
+   - `certain_predictions.csv`
+   - `flagged_uncertain/`
+
 ## Visual Outputs
 
 ### Flagged uncertain cases (human-in-the-loop)
@@ -37,6 +48,10 @@ This demonstrates uncertainty-based triage: high-confidence predictions are high
 - `outputs/uncertain_predictions.csv`
 - `outputs/certain_predictions.csv`
 - `outputs/flagged_uncertain/`
+
+## Relevance
+
+This prototype directly supports human-in-the-loop pest monitoring systems by automatically accepting high-confidence predictions and flagging ambiguous specimens for expert verification, reducing manual workload while maintaining high reliability.
 
 ## Tools
 Python, PyTorch, torchvision, timm, scikit-learn, Google Colab
