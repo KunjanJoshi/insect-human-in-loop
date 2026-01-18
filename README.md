@@ -15,7 +15,8 @@ Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image
    - `uncertain_predictions.csv`
    - `certain_predictions.csv`
    - `flagged_uncertain/`
-Key Features
+
+##Key Features
 Uncertainty-Aware Triage: Instead of a simple "black box" classifier, this system uses prediction entropy to measure model confidence.
 
 Human-in-the-Loop (HITL) Workflow: Automatically identifies "hard" cases (low confidence) that require expert verification, simulating a real-world industrial pipeline.
