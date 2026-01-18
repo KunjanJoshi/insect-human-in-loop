@@ -25,10 +25,10 @@ Kaggle: Agricultural Pests Image Dataset (`vencerlanz09/agricultural-pests-image
 ![Uncertainty vs correctness](uncertainty_correct_vs_wrong.png)
 
 ### Confusion Matrix
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### Uncertainty Distribution
-![Uncertainty Histogram](outputs/uncertainty_hist.png)
+![Uncertainty Histogram](uncertainty_hist.png)
 
 
 ## Methods
